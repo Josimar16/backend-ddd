@@ -2,39 +2,10 @@
   "compilerOptions": {
     "target": "ES2017",
     "module": "commonjs",
-    // "lib": [],
-    // "allowJs": true,
-    // "checkJs": true,
-    // "jsx": "preserve",
-    // "declaration": true,
-    // "declarationMap": true,
-    // "sourceMap": true,
-    // "outFile": "./",
     "outDir": "./dist",
     "rootDir": "./src",
-    // "composite": true,
-    // "tsBuildInfoFile": "./",
-    // "removeComments": true,
-    // "noEmit": true,
-    // "importHelpers": true,
-    // "downlevelIteration": true,
-    // "isolatedModules": true,
-    /* Strict Type-Checking Options */
     "strict": true,
-    // "noImplicitAny": true,
-    // "strictNullChecks": true,
-    // "strictFunctionTypes": true,
-    // "strictBindCallApply": true,
     "strictPropertyInitialization": false,
-    // "noImplicitThis": true,
-    // "alwaysStrict": true,
-    /* Additional Checks */
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noImplicitReturns": true,
-    // "noFallthroughCasesInSwitch": true,
-    /* Module Resolution Options */
-    // "moduleResolution": "node",
     "baseUrl": "./src",
     "paths": {
       "@modules/*": [
@@ -45,24 +16,11 @@
       ],
       "@shared/*": [
         "shared/*"
-      ],
+      ]
     },
-    // "rootDirs": [],
-    // "typeRoots": [],
-    // "types": [],
-    // "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    // "preserveSymlinks": true,
-    // "allowUmdGlobalAccess": true,
-    /* Source Map Options */
-    // "sourceRoot": "",
-    // "mapRoot": "",
-    // "inlineSourceMap": true,
-    // "inlineSources": true,
-    /* Experimental Options */
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    /* Advanced Options */
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   }

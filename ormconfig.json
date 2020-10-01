@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "postgres",
   "password": "password",
-  "database": "database",
+  "database": "gobarber",
   "synchronize": true,
   "logging": false,
   "entities": [
